@@ -1,0 +1,15 @@
+# Ignore Environment Variables
+.env
+
+# Ignore Python Caches
+__pycache__/
+*.pyc
+
+# Ignore temporary uploaded files from FastAPI
+temp_*
+
+# (Optional) Ignore your specific test images if you don't want them on GitHub
+my_profile_pic.png
+profile-pic LN.png
+poisoned_*.png
+poisoned_*.pdf
