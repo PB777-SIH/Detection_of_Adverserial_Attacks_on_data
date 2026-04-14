@@ -38,6 +38,3 @@ def analyze_spectral_density(image_path):
             # Add float() right here too!
             "energy_score": round(float(spectral_energy), 4)
         }
-
-# Test it! (Try it with a normal photo first)
-analyze_spectral_density("my_profile_pic.png")
